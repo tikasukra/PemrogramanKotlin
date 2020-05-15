@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:src="@drawable/masjidd"
+        android:background="#3b4843"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="70dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/jadwalSholat"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/radius2"
+            android:layout_width="110dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:src="@drawable/clock"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:text="Jadwal Sholat"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/identitasMasjid"
+            android:id="@+id/pengumumanMasjid"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/radius2"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:src="@drawable/megaphone"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="11sp"
+                android:textAlignment="center"
+                android:text="Pengumuman Masjid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/jadwalSholat"
+            android:id="@+id/identitasMasjid"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/radius2"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:src="@drawable/place"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:text="Identitas Masjid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/tagline"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@drawable/radius2"
+            android:layout_width="110dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:src="@drawable/portfolio"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:text="Tagline"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/tagline"
+            android:id="@+id/slideshow"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/radius2"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:src="@drawable/attach"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:text="Slideshow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/slideshow"
+            android:id="@+id/marquee"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/radius2"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:src="@drawable/marquee"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:text="Marquee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
